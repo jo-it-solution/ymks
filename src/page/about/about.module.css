@@ -1,0 +1,134 @@
+.body{
+    font-family: sans-serif;
+}
+.title, .title1 {
+    font-size: 6rem !important; 
+    font-family: sans-serif;
+}
+.title2{
+    font-size: 3rem;
+}
+.header{
+    margin-top: 0.6rem;
+    position:fixed;
+    width: 100%;
+    z-index:1000;
+  }
+  @media (max-width: 480px) {
+    .body{
+        overflow-x: hidden;
+    }
+     .header{
+        margin-top: -1rem;
+     }
+     .img{
+      margin-left: 1rem !important;
+      width: 98% !important;
+      margin-top: 0rem !important;
+    
+     }
+     .title{
+        margin-left: 2rem !important;
+        margin-top: -6rem !important;
+        font-size: 3rem !important;
+     }
+     .title1{
+        margin-left: 11rem !important;
+        margin-top: -4rem !important;
+        font-size: 3rem !important;
+     }
+     .text{
+        margin-left: 2rem !important;
+        font-size: 0.7rem !important;
+        width: 70% !important;
+
+     }
+     .group2{
+        margin-left: -70rem;
+     }
+     .img2{
+        margin-left: 69rem !important;
+        width: 12% !important;
+        margin-top: 4rem !important; 
+     }
+
+     .descripion{
+        margin-left: 28rem;
+        margin-top: 45rem;
+        width: 41% !important;
+        text-align: justify;
+     }
+     .descripion2{
+        margin-left: 69rem;
+        margin-top: 80rem;
+     }
+     .title3{
+        margin-left: 47rem !important;
+        width: 15rem ;
+     }
+     .img3{
+        margin-top: -6rem !important;
+        margin-bottom: 8rem;
+     }
+     .img4{
+        display: none !important;
+     }
+     .img5{
+        margin-top: -8.5rem !important;
+        margin-bottom: 8rem !important;
+     }
+     .img6{
+        margin-top: -7rem !important;
+        margin-bottom: 8rem !important;
+     }
+
+     .img6{
+        margin-top: -7rem !important;
+        margin-bottom: 8rem !important;
+     }
+     .img7{
+        margin-top: -6rem !important;
+        margin-bottom: 8rem !important;
+     }
+     .img8{
+        margin-top: -3rem !important;
+        margin-bottom: 4rem !important;
+       
+     }
+     .img9{
+        margin-top: -4rem !important;
+        margin-bottom: 40rem !important;
+        margin-left: 71rem !important;
+     }
+
+     .img10{
+      width: 20% !important;
+      margin-left: 78.5rem !important;
+      margin-top: -10rem !important;
+      margin-bottom: -75rem;
+     }
+
+     .title4{
+        margin-top: -30rem !important;
+        margin-left: 73rem !important;
+        width: 10%;
+     }
+
+     .title5{
+        width: 71% !important;
+        text-align: justify;
+     }
+     .img11{
+        margin-top: -4rem !important;
+        margin-bottom: 5rem !important;
+     }
+     .img12{
+        margin-top: -5.8rem !important;
+        margin-bottom: 6rem !important;
+     }
+     .img13{
+        margin-top: -3rem !important;
+     }
+
+
+  }
