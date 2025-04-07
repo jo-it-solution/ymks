@@ -70,7 +70,8 @@ export function About() {
           </Text>
           
 
-          <Button className={classes.button} variant="outline" color="#FFB413" radius="xl"  mt={50}>Learn More</Button>
+          <Button  component="a"
+            href="/about" className={classes.button} variant="outline" color="#FFB413" radius="xl"  mt={50}>Learn More</Button>
          
         </Grid.Col>
         <Grid.Col span={{ base: 12, md: 7 }} >

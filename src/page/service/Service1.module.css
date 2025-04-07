@@ -13,7 +13,7 @@
     font-size: 3rem;
 }
 .header{
-    margin-top: 0rem;
+    margin-top: -1rem;
     position:fixed;
     width: 100%;
     z-index:1000;

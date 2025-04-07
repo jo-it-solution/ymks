@@ -71,7 +71,8 @@ export default function Home() {
           withIndicators
           w="100%"
           height={660}
-          
+          bg={"white"}
+          c={"white"}
           className={classes.img}
           plugins={[autoplay.current]}
           onMouseEnter={autoplay.current.stop}

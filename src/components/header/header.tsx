@@ -74,14 +74,14 @@ import { useState , useEffect} from 'react';
           }
       };
 
-      // Add scroll event listener
+    
       window.addEventListener('scroll', changeColor);
 
-      // Cleanup function to remove the event listener on unmount
+      
       return () => {
           window.removeEventListener('scroll', changeColor);
       };
-  }, []); // Empty dependency array to run once
+  }, []); 
 
   const links = mockdata.map((item) => (
       <UnstyledButton className="subLink" key={item.title}>
@@ -152,6 +152,9 @@ import { useState , useEffect} from 'react';
                 
                 </HoverCard.Dropdown>
               </HoverCard>
+              <a href="/news" className="link">
+                News
+              </a>
               <a href="/Contact" className="link">
                 Contact Us
               </a>
@@ -200,6 +203,9 @@ import { useState , useEffect} from 'react';
               </Center>
             </UnstyledButton>
             <Collapse in={linksOpened}>{links}</Collapse>
+            <a href="/news" className="link">
+                News
+              </a>
             <a href="/Contact" className="link">
               Contact
             </a>
