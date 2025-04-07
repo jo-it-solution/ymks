@@ -60,6 +60,69 @@
 
 
 
+@media ((min-width: 481px) and (max-width: 739px)) {
+  .welcome {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-top: 12rem;
+    
+    
+  }
+  .welcome1 {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+   
+  }
+  .img{
+    margin-top: -34rem;
+  }
+  .header{
+     margin-top: -13rem;
+  }
+  .text{
+    margin-left: -2rem;
+    width: 190%;
+    margin-bottom: -8rem;
+  }
+  .body{
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 990px) {
+  .welcome {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-top: 12rem;
+    
+    
+  }
+  .welcome1 {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+   
+  }
+  .img{
+    margin-top: -34rem;
+  }
+  .header{
+     margin-top: -13rem;
+  }
+  .text{
+    margin-left: -2rem;
+    width: 190%;
+    margin-bottom: -8rem;
+  }
+  .body{
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1265px){
+  .body{
+    overflow-x: hidden;
+  }
+}
 
   
   

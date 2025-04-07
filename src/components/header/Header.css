@@ -100,3 +100,12 @@
   padding: 1rem 1rem 3rem 1.5rem;
  } 
 
+ @media (min-width: 990px) and (max-width: 1265px){
+  .image{
+    margin-left: 3rem;
+  }
+  .link{
+    margin-left: 0rem;
+  }
+ }
+

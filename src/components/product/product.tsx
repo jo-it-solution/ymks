@@ -19,7 +19,7 @@ export default function Product() {
               </Title> 
        
       <div className={classes.parents}>
-     <Grid  >   
+     <Grid className={classes.grid} >   
      <Grid.Col span={{ base: 3, md: 50, lg: 4  }} className={classes.parent} >
         <Image
       radius="md"
@@ -65,7 +65,7 @@ order-to-cash business operation.
 
    
     
-    <Grid.Col span={{ base: 12, md: 6, lg: 4 }} className={classes.parent} >
+    <Grid.Col span={{ base: 12, md: 6, lg: 4 }} className={classes.parents2} >
         <Image
       radius="md"
       h={240}
@@ -107,7 +107,7 @@ order-to-cash business operation.
 
 
 
-  <Grid.Col span={{ base: 12, md: 6, lg: 4 }}  className={classes.parent} >
+  <Grid.Col span={{ base: 12, md: 6, lg: 4 }}  className={classes.parent3} >
         <Image
       radius="md"
       h={240}
@@ -152,7 +152,7 @@ order-to-cash business operation.
     </div>  
   
     <div className={classes.parents}>
-     <Grid  >   
+     <Grid className={classes.grids} >   
      <Grid.Col span={{ base: 3, md: 50, lg: 4  }} className={classes.parent} >
      <Image
       radius="md"
@@ -194,7 +194,7 @@ order-to-cash business operation.
 
    
     
-    <Grid.Col span={{ base: 12, md: 6, lg: 4 }} className={classes.parent} >
+    <Grid.Col span={{ base: 12, md: 6, lg: 4 }} className={classes.parents2} >
     <Image
       radius="md"
       h={240}
@@ -236,7 +236,7 @@ order-to-cash business operation.
 
 
 
-  <Grid.Col span={{ base: 12, md: 6, lg: 4 }}  className={classes.parent} >
+  <Grid.Col span={{ base: 12, md: 6, lg: 4 }}  className={classes.parent3} >
   <Image
       radius="md"
       h={240}

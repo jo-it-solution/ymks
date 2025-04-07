@@ -71,3 +71,27 @@
 
  }
 
+ @media (min-width: 1109px) and (max-width: 1265px){
+  .card{
+    width: 80%;
+    
+     
+     
+ }
+ .wrapper{
+  margin-left: -5rem;
+ }
+ }
+
+ @media (min-width: 990px) and (max-width: 1110px){
+  .card{
+    width: 65%;
+    margin-left: -4.5rem;
+    
+     
+     
+ }
+ .wrapper{
+  margin-left: -5rem;
+ }
+ }

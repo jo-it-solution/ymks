@@ -1,4 +1,4 @@
-.parent {
+.parent , .parent3 {
     display: inline-block; /* Adjust this to fit your layout */
     
 }
@@ -82,7 +82,7 @@
     transition: transform 0.3s ease;
     overflow: hidden;}
 
-.parents{
+.parents , .parents2{
     margin-left:-7.5rem;
      width: 76rem ;
 
@@ -106,7 +106,12 @@ src="card1.jpg"
     background-color: #ffffff;
     border: 0.2rem solid #FFAF03;
 }
-.parent:hover .icons {
+.parents2:hover .icons {
+    color: #FFAF03;
+    background-color: #ffffff;
+    border: 0.2rem solid #FFAF03;
+}
+.parent3:hover .icons {
     color: #FFAF03;
     background-color: #ffffff;
     border: 0.2rem solid #FFAF03;
@@ -116,7 +121,14 @@ src="card1.jpg"
     transform: scale(1.06);
     opacity: 0.8;
 }
-
+.parents2:hover .Images {
+    transform: scale(1.06);
+    opacity: 0.8;
+}
+.parent3:hover .Images {
+    transform: scale(1.06);
+    opacity: 0.8;
+}
 
 @media (max-width: 480px) {
     .body{
@@ -144,5 +156,76 @@ src="card1.jpg"
 
 }
 
+@media (min-width: 1081px) and (max-width: 1265px){
+    .content{
+        width: 17rem;
+     }  
+     .Images{
+        height: 12.5rem !important;
+        
+    }
+    .body{
+        margin-left: 10rem !important;
+      
+        
+    }
+    .grid{
+        width: 70% !important;
+        
+        
+    }
+    .grids{
+        width: 70% !important;
+        
+        
+    }
+    .parents2{
+       margin-top: -31rem;
+       margin-left: 23rem !important;
+    }
+    .parent3{
+        margin-top: -31rem !important;
+        margin-left: 45rem !important;
+     }
+     .contentss{
+        width: 90%;
+     }
+
+}
+@media (min-width: 990px) and (max-width: 1080px){
+    .content{
+        width: 17rem;
+     }  
+     .Images{
+        height: 12.5rem !important;
+        
+    }
+    .body{
+        margin-left: 10rem !important;
+      
+        
+    }
+    .grid{
+        width: 70% !important;
+        margin-left: -1rem;
+        
+    }
+    .grids{
+        width: 70% !important;
+        margin-left: -1rem;
+        
+    }
+    .parents2{
+       margin-top: -31rem;
+       margin-left: 20rem !important;
+    }
+    .parent3{
+        margin-top: -31rem !important;
+        margin-left: 40rem !important;
+     }
+     .contentss{
+        width: 90%;
+     }
+}
 
 

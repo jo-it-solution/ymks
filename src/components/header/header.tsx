@@ -1,134 +1,123 @@
+import { Forklift, Antenna, Activity, DatabaseZap, University, HardHat, ChevronDown } from 'lucide-react';
+import { Image } from '@mantine/core';
 
-  import { Forklift,Antenna,Activity,DatabaseZap ,University ,HardHat ,ChevronDown} from 'lucide-react';
-  import { Image } from '@mantine/core';
+import {
+  Anchor,
+  Box,
+  Burger,
+  Center,
+  Collapse,
+  Divider,
+  Drawer,
+  Group,
+  HoverCard,
+  ScrollArea,
+  SimpleGrid,
+  Text,
+  ThemeIcon,
+  UnstyledButton,
+  useMantineTheme,
+} from '@mantine/core';
+import { useDisclosure } from '@mantine/hooks';
 
-  import {
-    Anchor,
-    Box,
-    Burger,
-    Center,
-    Collapse,
-    Divider,
-    Drawer,
-    Group,
-    HoverCard,
-    ScrollArea,
-    SimpleGrid,
-    Text,
-    ThemeIcon,
-    UnstyledButton,
-    useMantineTheme,
-  } from '@mantine/core';
-  import { useDisclosure } from '@mantine/hooks';
- 
-  
-  import  './Header.css';
-import { useState , useEffect} from 'react';
-  
-  const mockdata = [
-    {
-      icon: Forklift,
-      title: 'EFOM',
-      description: 'Custom logistic software streamlining order-to-cash operations.',
-    },
-    {
-      icon: Antenna,
-      title: 'CATS',
-      description: 'The system improves commodity visibility and reporting',
-    },
-    {
-      icon: Activity,
-      title: 'RMCARE',
-      description: 'A maternal and child health software co-developed with users.',
-    },
-    
-    {
-      icon: DatabaseZap,
-      title: 'MAVEKO',
-      description: 'Data outsourcing handles customer orders and inventory management.',
-    },
-    {
-      icon: University,
-      title: 'SIS',
-      description: 'A software for colleges to manage student information',
-    },
-    {
-      icon: HardHat,
-      title: 'ECOM',
-      description: 'A custom app suite to boost productivity in construction',
-    },
-  ];
-  
-  export default function HeaderMegaMenu() {
-    const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
-    const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
-    const theme = useMantineTheme();
-    const [color, setColor] = useState(false);
+import './Header.css';
+import { useState, useEffect } from 'react';
 
-    useEffect(() => {
-      const changeColor = () => {
-          if (window.scrollY >= 90) {
-              setColor(true);
-          } else {
-              setColor(false);
-          }
-      };
+const mockdata = [
+  {
+    icon: Forklift,
+    title: 'EFOM',
+    description: 'Custom logistic software streamlining order-to-cash operations.',
+  },
+  {
+    icon: Antenna,
+    title: 'CATS',
+    description: 'The system improves commodity visibility and reporting',
+  },
+  {
+    icon: Activity,
+    title: 'RMCARE',
+    description: 'A maternal and child health software co-developed with users.',
+  },
+  {
+    icon: DatabaseZap,
+    title: 'MAVEKO',
+    description: 'Data outsourcing handles customer orders and inventory management.',
+  },
+  {
+    icon: University,
+    title: 'SIS',
+    description: 'A software for colleges to manage student information',
+  },
+  {
+    icon: HardHat,
+    title: 'ECOM',
+    description: 'A custom app suite to boost productivity in construction',
+  },
+];
 
-    
-      window.addEventListener('scroll', changeColor);
+export default function HeaderMegaMenu() {
+  const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
+  const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
+  const theme = useMantineTheme();
+  const [color, setColor] = useState(false);
+  const [activeLink, setActiveLink] = useState('/'); // State for active link
 
-      
-      return () => {
-          window.removeEventListener('scroll', changeColor);
-      };
-  }, []); 
+  useEffect(() => {
+    const changeColor = () => {
+      setColor(window.scrollY >= 90);
+    };
+
+    window.addEventListener('scroll', changeColor);
+    return () => {
+      window.removeEventListener('scroll', changeColor);
+    };
+  }, []);
 
   const links = mockdata.map((item) => (
-      <UnstyledButton className="subLink" key={item.title}>
-          <Group wrap="nowrap" align="flex-start">
-              <ThemeIcon size={34} variant="default" color={"#FFB413"} radius="md">
-                  <item.icon size={25} color={"#FFB413"} />
-              </ThemeIcon>
-              <div>
-                  <Anchor size="sm" fw={500} href="product#1" c={"#FFB413"}>
-                      {item.title}
-                  </Anchor>
-                  <Text size="xs" c="dimmed">
-                      {item.description}
-                  </Text>
-              </div>
-          </Group>
-      </UnstyledButton>
+    <UnstyledButton
+      className={`subLink ${activeLink === item.title ? 'active' : ''}`} // Apply active class conditionally
+      key={item.title}
+      onClick={() => setActiveLink(item.title)} // Set active link on click
+    >
+      <Group wrap="nowrap" align="flex-start">
+        <ThemeIcon size={34} variant="default" color={"#FFB413"} radius="md">
+          <item.icon size={25} color={"#FFB413"} />
+        </ThemeIcon>
+        <div>
+          <Anchor size="sm" fw={500} href="product#1" c={"#FFB413"}>
+            {item.title}
+          </Anchor>
+          <Text size="xs" c="dimmed">
+            {item.description}
+          </Text>
+        </div>
+      </Group>
+    </UnstyledButton>
   ));
 
   return (
-      <Box pb={10} className={color ? 'headers header-bg' : 'headers'}>
-        <header className="header">
-          <Group justify="space-between" h="100%">
-          <Image
-     
-      className="image"
-      src="logo.png"
-       alt='image'
-    />
-     
-  
-            <Group h="100%" gap={0} visibleFrom="md">
-              <a href="/" className="link">
-                Home
-              </a>
-              <a href="/About" className="link">
-                About
-              </a>
-              <a href="/Service" className="link">
-                Our Service
-              </a>
-              <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
-                <HoverCard.Target>
-                  <a href="/Product" className="link">
-                    <Center inline>
-                      <Box component="span" mr={5}>
-                        Our product
+    <Box pb={10} className={color ? 'headers header-bg' : 'headers'}>
+      <header className="header">
+        <Group justify="space-between" h="100%">
+          <Image className="image" src="logo.png" alt='image' />
+
+          <Group h="100%" gap={0} visibleFrom="md">
+            <a href="/" className={`link ${activeLink === 'Home' ? 'active' : ''}`} onClick={() => setActiveLink('Home')}>
+              Home
+            </a>
+            <a href="/About" className={`link ${activeLink === 'About' ? 'active' : ''}`} onClick={() => setActiveLink('About')}>
+              About
+            </a>
+            <a href="/Service" className={`link ${activeLink === 'Our Service' ? 'active' : ''}`} onClick={() => setActiveLink('Our Service')}>
+              Our Service
+            </a>
+            <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
+              <HoverCard.Target>
+                <a href="/Product" className={`link ${activeLink === 'Our Product' ? 'active' : ''}`} onClick={() => setActiveLink('Our Product')}>
+                  <Center inline>
+                    <Box component="span" mr={5}>
+                      Our Product
                       </Box>
                       <ChevronDown size={21} color={theme.colors.blue[1]} />
                     </Center>
