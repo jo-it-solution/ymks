@@ -25,5 +25,11 @@
     }
 }
 
+@media (min-width: 990px) and (max-width: 1205px){
+    .form{
+        width: 35%;
+    }
+}
+
 
 

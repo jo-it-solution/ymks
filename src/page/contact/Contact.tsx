@@ -47,7 +47,7 @@ export default function Contact() {
               +251930288790
               </Text> 
               </Box>
-              <Box className={classes.card} ml={10} w={260}>
+              <Box className={classes.card5} ml={10} w={260}>
                  <Mail size={50}  strokeWidth={1}   className={classes.icon3} />
                  <Text w={170} mt={10} pl={95}>
                  Email Us

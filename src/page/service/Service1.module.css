@@ -127,3 +127,58 @@
     
 
 }
+
+@media (min-width: 990px) and (max-width: 1210px){
+   
+   .cards{
+    margin-left: -1rem;
+    width: 13% !important;
+    
+    
+   }
+   .tex{
+    margin-left: -2rem !important;
+   }
+    .card1{
+        margin-left: 0.5rem !important;
+        height: 17rem;
+        
+    }
+    .card2{
+        
+        margin-top: -17rem;
+        margin-left: 17.5rem !important;
+      
+    }
+    .card3{
+        
+        margin-top: -17rem;
+        margin-left: 34.5rem !important;
+    }
+    .card4{
+        
+        margin-top: -17rem;
+        margin-left: 51.5rem !important;
+        height: 17rem;
+    }
+    
+ 
+    
+
+}
+
+@media (min-width: 990px) and (max-width: 1060px){
+  
+    .cards{
+        width: 14% !important;
+    }
+    .card2{
+        margin-left: 15.5rem !important;
+    }
+    .card3{
+        margin-left: 30.5rem !important;
+    }
+    .card4{
+        margin-left: 45.5rem !important;
+    }
+}

@@ -158,10 +158,11 @@ export default function About() {
         Deliver real value to shareholders through consistent growth and
         profitability
       </Text>
-      </div>
-       
       <Image radius="md" w={25} ml={690} mt={-20} alt="image" src="icon.png" 
       className={classes.img9}  />
+      </div>
+       
+     
       
       <Title mt={185} ml={255} c="dimmed" className={classes.title4}>
         Our Value

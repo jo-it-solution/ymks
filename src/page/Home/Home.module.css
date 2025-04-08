@@ -1,4 +1,7 @@
 
+  .body{
+    overflow-x: hidden;
+  }
   .welcome{
     margin: 14rem 10rem 10rem 4rem ;
     color: #FFFFFF;

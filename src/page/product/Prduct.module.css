@@ -180,3 +180,15 @@
    }
 
   }
+
+
+  @media (min-width: 990px) and (max-width: 1205px){
+   .image{
+    width: 45% !important;
+    height: 50%;
+   }
+   .texts1{
+    margin-left: -5rem !important;
+    width: 120%;
+   }
+  }

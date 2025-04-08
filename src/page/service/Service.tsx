@@ -56,27 +56,27 @@ and automation. Our consulting services focus on the following.
    <Grid gutter={-90} className={classes.cards} >
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card1} ml={100}>
        <Clock size={65} strokeWidth={1.5} color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed">
+       <Text w={170} mt={10} c="dimmed" className={classes.tex}>
     Improving performance through innovation.
     </Text> 
     </Grid.Col>
 
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card2} ml={10}>
        <Users size={65} strokeWidth={1.5}color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed" >
+       <Text w={170} mt={10} c="dimmed" className={classes.tex} >
        Leadership,engagement, communication,innovation.
     </Text> 
     </Grid.Col>
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card3} ml={10}>
        <ArrowUpNarrowWide size={65} strokeWidth={1.5} color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed">
+       <Text w={170} mt={10} c="dimmed" className={classes.tex}>
        Creativity brings fresh ideas for effective business solutions.
     </Text> 
     </Grid.Col>
 
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card4} ml={10}>
        <UsersRound size={65} strokeWidth={1.5} color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed">
+       <Text w={170} mt={10} c="dimmed" className={classes.tex}>
        IT Governance and Change Management: Aligning policies for seamless transitions.
     </Text> 
     </Grid.Col>
@@ -112,27 +112,27 @@ and automation. Our consulting services focus on the following.
     <Grid gutter={-90} className={classes.cards} >
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card1} ml={100}>
     <MonitorCog size={65} strokeWidth={1.5} color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed">
+       <Text w={170} mt={10} c="dimmed" className={classes.tex}>
        Software development and management.
     </Text> 
     </Grid.Col>
 
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card2} ml={10}>
     <User size={65} strokeWidth={1.5}color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed">
+       <Text w={170} mt={10} c="dimmed" className={classes.tex}>
        Business traansformation and management.
     </Text> 
     </Grid.Col >
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card3} ml={10}>
     <ArrowUpNarrowWide size={65} strokeWidth={1.5} color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed">
+       <Text w={170} mt={10} c="dimmed" className={classes.tex}>
        Business process management.
     </Text> 
     </Grid.Col>
 
     <Grid.Col span={{ base: 12, md: 50, lg: 2.5  }} className={classes.card4} ml={10}>
     <RefreshCcwDot size={65} strokeWidth={1.5} color='#FFAF02' />
-       <Text w={170} mt={10} c="dimmed">
+       <Text w={170} mt={10} c="dimmed" className={classes.tex}>
        IT Governance and Change Management: Loading policies for seamless transitions.
     </Text> 
     </Grid.Col>

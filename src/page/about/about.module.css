@@ -1,5 +1,6 @@
 .body{
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 .title, .title1 {
     font-size: 6rem !important; 
@@ -9,7 +10,7 @@
     font-size: 3rem;
 }
 .header{
-    margin-top: 0.2rem;
+    margin-top: -1rem !important;
     position:fixed;
     width: 100%;
     z-index:1000;
@@ -133,9 +134,51 @@
 
   }
 
-  @media (min-width: 990px) and (max-width: 1265px){
-   .body{
-     overflow-x: hidden;
+  @media (min-width: 1150px) and (max-width: 1200px){
+   .img2{
+         width: 44% !important;
+   } 
+   .descripion{
+      margin-left: -11.5rem;
+      margin-top: 10rem;
+      
    }
+   
  }
+ @media (min-width: 1200px) and (max-width: 1330px){
+   .img2{
+         width: 44% !important;
+   } 
+   .descripion{
+      margin-left: -6.5rem;
+      margin-top: 10rem;
+      
+   }
+   
+ }
+ @media (min-width: 1090px) and (max-width: 1150px){
+   .img2{
+      width: 40% !important;
+} 
+.descripion{
+   margin-left: -15rem;
+   margin-top: 10rem;
+   
+   
+}
+
+}
+@media (min-width: 990px) and (max-width: 1090px){
+   .img2{
+      width: 38% !important;
+} 
+.descripion{
+   margin-left: -21rem;
+   margin-top: 10rem;
+   
+   
+}
+
+}
+ 
 
