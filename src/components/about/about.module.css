@@ -53,6 +53,9 @@
     margin-left: -4rem;
     
   }
+  .image5{
+    width: 40% !important;
+  }
   .title{
     font-size: 3rem !important ;
     margin-left: -30rem ;
@@ -95,3 +98,31 @@
   margin-left: -5rem;
  }
  }
+
+ @media ((min-width: 481px) and (max-width: 739px)) {
+  .texts{
+    width: 30%;
+    margin-left: -4rem;
+    
+  }
+  .image5{
+    width: 40% !important;
+  }
+  .title{
+    font-size: 3rem !important ;
+    margin-left: -30rem ;
+    margin-bottom: 2rem !important;
+  }
+  .card{
+     width: 30%;
+      margin-left: 0.5rem;
+  }
+ 
+.wrapper{
+  width: 160%;
+  margin-left: 0rem;
+}
+
+
+ }
+ 

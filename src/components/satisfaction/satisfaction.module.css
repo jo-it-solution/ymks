@@ -111,3 +111,73 @@
     margin-left: -5rem !important;
    } 
 }
+
+@media ((min-width: 481px) and (max-width: 739px)) {
+   .body{
+      margin-left: -15rem;
+      margin-bottom: -15rem;
+  }
+  
+   .img{
+      width: 3rem !important;
+      height: 7rem !important;
+      margin-left: 18rem !important;
+      margin-top: -8rem !important;
+   }
+  
+   .img1{
+      width: 3rem !important;
+      height: 3rem !important;
+      margin-left: 18rem !important;
+      margin-top: -10rem !important;
+   }
+   .img2{
+      width: 3rem !important;
+      height: 3rem !important;
+      margin-left: 23rem !important;
+      margin-top: 0rem !important;
+   }
+   .img3{
+      width: 3rem !important;
+      height: 3rem !important;
+      margin-left: 14rem !important;
+      margin-top: -3rem !important;
+   }
+   .img4{
+      width: 3rem !important;
+      height: 3rem !important;
+      margin-left: 14rem !important;
+      margin-top: 2rem !important;
+   }
+   .img5{
+      width: 3rem !important;
+      height: 3rem !important;
+      margin-left: 23rem !important;
+      margin-top: -3rem !important;
+   }
+   .img6{
+      width: 3rem !important;
+      height: 3rem !important;
+      margin-left: 18.5rem !important;
+      margin-top: 0rem !important;
+   }
+  .insidebox{
+      width: 8rem;
+      height: 8rem;
+      margin-top: -10rem;
+      margin-left: 16rem;
+  }
+  .title{
+      font-size: 1rem !important;
+      margin-top: -8rem !important;
+      margin-left: 10rem !important ;
+      margin-bottom: 10rem !important;
+  }
+  .box{
+      width: 12rem;
+      height: 12rem;
+      margin-top: -8rem;
+      margin-left: 14rem;
+  }
+
+}

@@ -11,7 +11,7 @@ export default function Product() {
             ml={40}
             mb={60}
             mt={60}
-            className={classes.title}
+            className={classes.titles}
            
             
             >

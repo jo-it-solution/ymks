@@ -148,6 +148,9 @@ src="card1.jpg"
  .content{
     width: 17rem;
  }
+ .contentss{
+    width: 18rem;
+ }
 
 
 
@@ -226,6 +229,40 @@ src="card1.jpg"
      .contentss{
         width: 90%;
      }
+}
+
+
+@media ((min-width: 481px) and (max-width: 739px)) {
+    .body{
+        width: 100% !important;
+        margin-left: 14rem !important;
+       
+    
+    
+    }
+
+    .Images{
+        height: 12.5rem !important;
+        
+    }
+
+
+ .content{
+    width: 17rem;
+ }
+ .contentss{
+    width: 18rem;
+ }
+ .titles{
+    margin-left: -5rem !important;
+ }
+
+
+
+ 
+ 
+
+ 
 }
 
 

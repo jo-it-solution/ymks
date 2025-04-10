@@ -152,7 +152,7 @@ export default function HeaderMegaMenu() {
   
            
   
-            <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm"   mt={-172} ml={250} />
+            <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm"   mt={-172} ml={250} className="mul" />
           </Group>
         </header>
   

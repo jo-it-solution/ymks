@@ -109,3 +109,12 @@
   }
  }
 
+ @media ((min-width: 481px) and (max-width: 739px)) {
+   .mul{
+    margin-left: 26rem !important;
+   }
+   .image{
+    margin-left: 2rem;
+   }
+ }
+
