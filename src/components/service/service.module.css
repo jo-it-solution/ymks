@@ -101,5 +101,13 @@
  
   
   }
-  
+  @media (min-width: 740px) and (max-width: 990px) {
+    .wrapper{
+      width: 85%;
+      margin-left: -30rem;
+    }
+    .divider{
+      display: none;
+    }
+  }
  

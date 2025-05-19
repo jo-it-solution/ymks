@@ -190,3 +190,173 @@
     }
    
   }
+
+
+  @media (min-width: 700px) and (max-width: 990px){
+
+    .text{
+        margin-left: 20rem !important; 
+        margin-top: 13rem !important;
+         
+     }
+    .img{
+        margin-left: 21rem !important;
+    }
+    .card1{
+        margin-left: -6rem !important;
+         margin-right: 0rem !important;
+         width: 30% !important;
+        
+        
+    }
+    .card {
+        margin-left: 11rem !important; 
+        margin-top: -13rem;
+        margin-bottom: 10rem;
+        width: 25% !important;
+       
+    }
+
+     .card5{
+        margin-left: 25rem !important; 
+        margin-top: -21.5rem;
+        margin-bottom: 10rem;
+        width: 27% !important;
+    }
+    .icon{
+        margin-left: 4rem;
+    }
+    .text5{
+        margin-left: -6rem !important;
+        width: 15rem !important;
+    }
+    .text6{
+        margin-left: -10.5rem !important;
+       
+    }
+    .flex{
+        flex-direction: column;
+        margin-left: 9rem !important;
+       
+    }
+    .form{
+        margin-left: -15.6rem !important;
+        margin-top: -5rem;
+       
+        
+      
+       
+        
+    }
+    .map{
+        margin-top: -35rem !important;
+        margin-bottom: 15rem !important;
+        margin-left: 2rem !important;
+        width: 37% !important;
+    }
+    .icon2{
+        margin-left: 2.5rem;
+    }
+    .call{
+        margin-left: -3rem !important;
+    }
+    .phone{
+        margin-left: -3.5rem !important;
+    }
+    .Email{
+       
+        margin-left: -3rem !important;
+        width: 1rem;
+    }
+    .icon3{
+        margin-left: 3rem;
+    }
+   
+  }
+
+
+  
+  @media (min-width: 481px) and (max-width: 699px){
+
+    .text{
+        margin-left: 15rem !important; 
+        margin-top: 13rem !important;
+         
+     }
+    .img{
+        margin-left: 16rem !important;
+    }
+    .card1{
+        margin-left: -6rem !important;
+         margin-right: 0rem !important;
+         width: 30% !important;
+        
+        
+    }
+    .card {
+        margin-left: 5rem !important; 
+        margin-top: -13rem;
+        margin-bottom: 10rem;
+        width: 35% !important;
+       
+    }
+
+     .card5{
+        margin-left: 15rem !important; 
+        margin-top: -21.5rem;
+        margin-bottom: 10rem;
+        width: 35% !important;
+    }
+    .icon{
+        margin-left: 2rem;
+    }
+    .text5{
+        margin-left: -7rem !important;
+        width: 15rem !important;
+        font-size: 0.8rem !important;
+    }
+    .text6{
+        margin-left: -11.5rem !important;
+       
+    }
+    .flex{
+        flex-direction: column;
+        margin-left: 9rem !important;
+       
+    }
+    .form{
+        margin-left: -22.6rem !important;
+        margin-top: -5rem;
+       
+        
+      
+       
+        
+    }
+    .map{
+        margin-top: -35rem !important;
+        margin-bottom: 15rem !important;
+        margin-left: 2rem !important;
+        width: 37% !important;
+    }
+    .icon2{
+        margin-left: 2.5rem;
+    }
+    .call{
+        margin-left: -3rem !important;
+    }
+    .phone{
+        margin-left: -3.5rem !important;
+        font-size: 0.9rem !important;
+    }
+    .Email{
+       
+        margin-left: -3rem !important;
+        width: 1rem;
+        font-size: 0.8rem !important;
+    }
+    .icon3{
+        margin-left: 3rem;
+    }
+   
+  }

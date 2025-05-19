@@ -25,10 +25,10 @@ export default function About() {
         className={classes.img}
       />
       
-      <Title mt={-400} ml={245} className={classes.title}>
+      <Title mt={-400} ml={225} className={classes.title}>
         About
       </Title>
-      <Title mt={-119} ml={578} c={"white"} className={classes.title1}>
+      <Title mt={-119} ml={558} c={"white"} className={classes.title1}>
         Us
       </Title>
 
@@ -57,7 +57,7 @@ export default function About() {
         superior customer experience, and perform better
       </Text>
 
-      <Image radius="md" w={25} ml={690} mt={-50} alt="image" src="icon.png" className={classes.img3} />
+      <Image radius="md" w={25} ml={690} mt={-50} alt="image" src="icon2.png" className={classes.img3} />
 
       <Title mt={55} ml={855} c="dimmed" className={classes.title3}>
         Our Mission
@@ -74,7 +74,7 @@ export default function About() {
         mt={-70}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img5}
       />
       <Image w={4} h={90} ml={700} mt={-61} alt="image" src="Line.png"  className={classes.img4} />
@@ -89,7 +89,7 @@ export default function About() {
         mt={-50}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img6}
       />
       <Image w={4} h={60} ml={700} mt={-61} alt="image" src="Line.png"   className={classes.img4}/>
@@ -104,7 +104,7 @@ export default function About() {
         mt={-50}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img7}
       />
       <Image w={4} h={60} ml={700} mt={-61} alt="image" src="Line.png"  className={classes.img4} />
@@ -119,7 +119,7 @@ export default function About() {
         mt={-50}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img7}
       />
       <Image w={4} h={60} ml={700} mt={-61} alt="image" src="Line.png"  className={classes.img4} />
@@ -135,7 +135,7 @@ export default function About() {
         mt={-50}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img6}
       />
       <Image w={4} h={60} ml={700} mt={-61} alt="image" src="Line.png"  className={classes.img4} />
@@ -149,7 +149,7 @@ export default function About() {
         mt={-20}
         mb={100}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img8}
       />
 
@@ -158,7 +158,7 @@ export default function About() {
         Deliver real value to shareholders through consistent growth and
         profitability
       </Text>
-      <Image radius="md" w={25} ml={690} mt={-20} alt="image" src="icon.png" 
+      <Image radius="md" w={25} ml={690} mt={-20} alt="image" src="icon2.png" 
       className={classes.img9}  />
       </div>
        
@@ -187,7 +187,7 @@ export default function About() {
         mt={-28}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img11}
       />
 
@@ -202,7 +202,7 @@ export default function About() {
         mt={-25}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img11}
       />
 
@@ -218,7 +218,7 @@ export default function About() {
         mt={-25}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img11}
       />
     
@@ -234,7 +234,7 @@ export default function About() {
         mt={-25}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img11}
       />
 
@@ -250,7 +250,7 @@ export default function About() {
         mt={-50}
         mb={60}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img12}
       />
 
@@ -265,7 +265,7 @@ export default function About() {
         mt={-25}
         mb={160}
         alt="image"
-        src="icon.png"
+        src="icon2.png"
         className={classes.img13}
       /> </div> </div>
 

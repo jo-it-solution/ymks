@@ -40,19 +40,19 @@ export default function Contact() {
               </Box>
               <Box className={classes.card} ml={10} w={260} >
                  <PhoneCall size={50}  strokeWidth={1}   className={classes.icon2} />
-                 <Text w={170} mt={10} pl={95}>
+                 <Text w={170} mt={10} pl={95} className={classes.call}>
                  Call Us
               </Text> 
-              <Text w={170} mt={10} pl={70}>
+              <Text w={170} mt={10} pl={70} className={classes.phone} >
               +251930288790
               </Text> 
               </Box>
               <Box className={classes.card5} ml={10} w={260}>
                  <Mail size={50}  strokeWidth={1}   className={classes.icon3} />
-                 <Text w={170} mt={10} pl={95}>
+                 <Text w={170} mt={10} pl={95} className={classes.Email}>
                  Email Us
               </Text> 
-              <Text w={170} mt={10} pl={60}>
+              <Text w={170} mt={10} pl={60} className={classes.Email}>
               info@mksaddis.com
               </Text> 
               </Box>

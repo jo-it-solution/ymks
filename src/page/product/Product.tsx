@@ -37,12 +37,12 @@ export default function Product() {
     </Text>
 
     <Container size="md" mt={300} id='1'>
-      <div className={classes.inner}>
+      <div className={classes.inner}  id={classes.inner3}>
         <div className={classes.content}>
           <Title className={classes.title}>
              <span className={classes.highlight1}>eFOM</span> 
           </Title>
-          <Text c="dimmed" size='lg' mt="md" className={classes.texts} >
+          <Text c="dimmed" size='lg' mt="md" className={classes.texts}  >
           eFOM is an end-to-end bespoke application designed and developed to 
           support freight forwarders and logistics operators manage their operations
            and processes in an industry standard and customized ways. The
@@ -77,7 +77,7 @@ export default function Product() {
     </Container>
 
     <Container size="md" mt={80} id='3'>
-      <div className={classes.inner}>
+      <div className={classes.inner} id={classes.inner}>
         <div className={classes.content}>
           <Title className={classes.title}>
              <span className={classes.highlight1}>MAVEKO</span> 
@@ -95,7 +95,7 @@ export default function Product() {
     </Container>
 
     <Container size="md" mt={-10} id='4'>
-      <div className={classes.inner}>
+      <div className={classes.inner} id={classes.inner2}>
         
         <Image src="sis.png" alt='image' className={classes.image1} />
 

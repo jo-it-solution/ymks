@@ -11,6 +11,8 @@
     color: rgb(0, 0, 0);
     width: 92%;
     margin-bottom: 3rem;
+    position: relative;
+    
    
 }
 
@@ -39,6 +41,7 @@
     margin-left: 1rem;
     margin-top: -9rem;
     text-align: justify;
+
 }
 .buttons{
     color: #000000 !important;
@@ -81,6 +84,9 @@
 .Images{
     transition: transform 0.3s ease;
     overflow: hidden;}
+    .Imagess{
+        transition: transform 0.3s ease;
+        overflow: hidden;}
 
 .parents , .parents2{
     margin-left:-7.5rem;
@@ -101,26 +107,37 @@ src="card1.jpg"
 
 
 
+.parent:hover .icons {
+    color: #FFAF03;
+    background-color: #ffffff;
+    border: 0.2rem solid #FFAF03;
+}
 .parent:hover .icon {
     color: #FFAF03;
     background-color: #ffffff;
     border: 0.2rem solid #FFAF03;
 }
-.parents2:hover .icons {
+.parents2:hover .icon {
     color: #FFAF03;
     background-color: #ffffff;
     border: 0.2rem solid #FFAF03;
 }
-.parent3:hover .icons {
+.parent3:hover .icon {
     color: #FFAF03;
     background-color: #ffffff;
     border: 0.2rem solid #FFAF03;
 }
 
+
 .parent:hover .Images {
     transform: scale(1.06);
     opacity: 0.8;
 }
+.parent:hover .Imagess {
+    transform: scale(1.06);
+    opacity: 0.8;
+}
+
 .parents2:hover .Images {
     transform: scale(1.06);
     opacity: 0.8;
@@ -133,23 +150,32 @@ src="card1.jpg"
 @media (max-width: 480px) {
     .body{
         width: 5%;
-        margin-left: 7.2rem !important;
+        margin-left: 8.7rem !important;
        
     
     
     }
 
     .Images{
-        height: 12.5rem !important;
+        height: 11.5rem !important;
         
     }
-
-
+    .Imagess{
+        height: 10.5rem !important;
+        
+    }
+.icon{
+    margin-left: 5rem;
+}
+.icons{
+    margin-left: 5rem;
+}
  .content{
-    width: 17rem;
+    width: 16rem;
+    margin-left: -0.4rem;
  }
  .contentss{
-    width: 18rem;
+    width: 15rem;
  }
 
 
@@ -159,48 +185,21 @@ src="card1.jpg"
 
 }
 
-@media (min-width: 1081px) and (max-width: 1265px){
-    .content{
-        width: 17rem;
-     }  
-     .Images{
-        height: 12.5rem !important;
-        
-    }
-    .body{
-        margin-left: 10rem !important;
-      
-        
-    }
-    .grid{
-        width: 70% !important;
-        
-        
-    }
-    .grids{
-        width: 70% !important;
-        
-        
-    }
-    .parents2{
-       margin-top: -31rem;
-       margin-left: 23rem !important;
-    }
-    .parent3{
-        margin-top: -31rem !important;
-        margin-left: 45rem !important;
-     }
-     .contentss{
-        width: 90%;
-     }
 
-}
-@media (min-width: 990px) and (max-width: 1080px){
+@media (min-width: 990px) and (max-width: 1200px){
     .content{
         width: 17rem;
+        height: 21rem;
+        
      }  
      .Images{
         height: 12.5rem !important;
+        
+        
+    }
+    .Imagess{
+        height: 11.5rem !important;
+       
         
     }
     .body{
@@ -219,16 +218,24 @@ src="card1.jpg"
         
     }
     .parents2{
-       margin-top: -31rem;
+       margin-top: -31.5rem;
        margin-left: 20rem !important;
+       margin-bottom: 5rem;
     }
     .parent3{
-        margin-top: -31rem !important;
+        margin-top: -36.5rem !important;
         margin-left: 40rem !important;
+        margin-bottom: 5rem;
      }
      .contentss{
-        width: 90%;
+        width: 17rem;
+        height: 24rem;
+        margin-top: 1rem;
+
      }
+    
+   
+    
 }
 
 
@@ -243,6 +250,11 @@ src="card1.jpg"
 
     .Images{
         height: 12.5rem !important;
+        
+    }
+    .Imagess{
+        height: 12.5rem !important;
+     
         
     }
 
@@ -263,6 +275,104 @@ src="card1.jpg"
  
 
  
+}
+
+@media (min-width: 850px) and (max-width: 990px) {
+    .body{
+        width: 100% !important;
+        margin-left: 11rem !important;
+
+    }
+
+    .Images{
+        height: 14.5rem !important;
+        
+    }
+    .Imagess{
+        height: 14.5rem !important;
+        
+    }
+ 
+#parent{
+    margin-left: 25rem;
+    margin-top: -32.2rem;
+}
+
+ .content{
+    width: 18rem;
+    margin-left: 1rem;
+ }
+ .icon{
+    margin-left: 8rem;
+ }
+ .contentss{
+    width: 19rem;
+    margin-left: 0.5rem;
+ }
+ .titles{
+    margin-left: 3rem !important;
+ } 
+ .icons{
+  margin-left: 7rem;
+ }
+
+ #parents{
+    margin-left: 25rem;
+    margin-top: -32rem;
+ }
+ #parentss{
+    margin-left: 25rem;
+    margin-top: -33.5rem;
+ }
+}
+
+@media (min-width: 740px) and (max-width: 849px) {
+    .body{
+        width: 100% !important;
+        margin-left: 8rem !important;
+
+    }
+
+    .Images{
+        height: 12.5rem !important;
+        
+    }
+    .Imagess{
+        height: 12.5rem !important;
+        
+    }
+ 
+#parent{
+    margin-left: 25rem;
+    margin-top: -32.2rem;
+}
+
+ .content{
+    width: 14rem;
+    margin-left: 1rem;
+ }
+ .icon{
+    margin-left: 8rem;
+ }
+ .contentss{
+    width: 15rem;
+    margin-left: 0.5rem;
+ }
+ .titles{
+    margin-left: 3rem !important;
+ } 
+ .icons{
+  margin-left: 7rem;
+ }
+
+ #parents{
+    margin-left: 25rem;
+    margin-top: -32rem;
+ }
+ #parentss{
+    margin-left: 25rem;
+    margin-top: -33.5rem;
+ }
 }
 
 

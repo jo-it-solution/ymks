@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <div
           style={{
-            margin: "-10rem 10rem 10rem 4rem",
+            margin: "-10rem 10rem 10rem 5rem",
             color: "#FFFFFF",
             fontSize: "0.7rem",
             fontFamily: "sans-serif",
@@ -51,7 +51,7 @@ export default function Home() {
             Highly Tailored IT Design, Management & Support Services.
           </h1>
         </div>
-        <Flex mt={-105} ml={70}>
+        <Flex mt={-105} ml={80}>
           <Button
            
             component="a"
@@ -68,15 +68,19 @@ export default function Home() {
 
       <div>
         <Carousel
+         
           withIndicators
           w="100%"
           height={660}
-          bg={"white"}
+        
           c={"white"}
+       
+          
           className={classes.img}
           plugins={[autoplay.current]}
           onMouseEnter={autoplay.current.stop}
           onMouseLeave={autoplay.current.reset}
+        
         >
           <Carousel.Slide>
             <div
@@ -90,6 +94,7 @@ export default function Home() {
                   height: "100%",
                   objectFit: "cover",
                   filter: "grayscale(20%)",
+                 
                 }}
               />
               <div
@@ -231,7 +236,7 @@ export default function Home() {
         <FeaturesGrid />
       </Flex>
 
-      <Flex>
+      <Flex >
         <Product />
       </Flex>
 

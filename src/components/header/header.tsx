@@ -61,7 +61,7 @@ export default function HeaderMegaMenu() {
   const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
   const theme = useMantineTheme();
   const [color, setColor] = useState(false);
-  const [activeLink, setActiveLink] = useState('/'); // State for active link
+ 
 
   useEffect(() => {
     const changeColor = () => {
@@ -76,9 +76,7 @@ export default function HeaderMegaMenu() {
 
   const links = mockdata.map((item) => (
     <UnstyledButton
-      className={`subLink ${activeLink === item.title ? 'active' : ''}`} // Apply active class conditionally
-      key={item.title}
-      onClick={() => setActiveLink(item.title)} // Set active link on click
+      
     >
       <Group wrap="nowrap" align="flex-start">
         <ThemeIcon size={34} variant="default" color={"#FFB413"} radius="md">
@@ -100,21 +98,18 @@ export default function HeaderMegaMenu() {
     <Box pb={10} className={color ? 'headers header-bg' : 'headers'}>
       <header className="header">
         <Group justify="space-between" h="100%">
-          <Image className="image" src="logo.png" alt='image' />
+        <Anchor href="/" target="_blank">
+        <Image className="image" src="logo.png" alt='image' h={95} w={50} mt={22} ml={65} />
+       </Anchor>
+        
 
           <Group h="100%" gap={0} visibleFrom="md">
-            <a href="/" className={`link ${activeLink === 'Home' ? 'active' : ''}`} onClick={() => setActiveLink('Home')}>
-              Home
-            </a>
-            <a href="/About" className={`link ${activeLink === 'About' ? 'active' : ''}`} onClick={() => setActiveLink('About')}>
-              About
-            </a>
-            <a href="/Service" className={`link ${activeLink === 'Our Service' ? 'active' : ''}`} onClick={() => setActiveLink('Our Service')}>
-              Our Service
-            </a>
+          <a href="/" className={`link ${window.location.pathname === '/' ? 'active' : ''}`}>Home</a>
+<a href="/About" className={`link ${window.location.pathname === '/About' ? 'active' : ''}`}>About</a>
+<a href="/Service" className={`link ${window.location.pathname === '/Service' ? 'active' : ''}`}>Our Service</a>
             <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
               <HoverCard.Target>
-                <a href="/Product" className={`link ${activeLink === 'Our Product' ? 'active' : ''}`} onClick={() => setActiveLink('Our Product')}>
+                <a href="/Product" className={`link ${window.location.pathname === '/Product' ? 'active' : ''}`}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Our Product
@@ -141,10 +136,10 @@ export default function HeaderMegaMenu() {
                 
                 </HoverCard.Dropdown>
               </HoverCard>
-              <a href="/news" className="link">
+              <a href="/news" className={`link ${window.location.pathname === '/news' ? 'active' : ''}`}>
                 News
               </a>
-              <a href="/Contact" className="link">
+              <a href="/Contact" className={`link ${window.location.pathname === '/Contact' ? 'active' : ''}`}>
                 Contact Us
               </a>
             

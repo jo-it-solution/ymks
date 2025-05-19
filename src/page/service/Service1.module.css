@@ -127,6 +127,40 @@
     
 
 }
+@media (min-width: 625px) and (max-width: 760px){
+    .title1{
+        color: black !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 760px){
+    .body{
+        overflow-x: hidden;
+    }
+    .img1{
+        width: 200% !important;
+        margin-left: -16rem !important;
+        margin-top: 0rem !important;
+       
+    }
+    .text{
+        margin-left: 2rem !important;
+        width: 80% !important;
+        font-size: 1rem !important;
+       
+    }
+    .title{
+        margin-top: -17rem !important;
+        margin-left: 4rem !important;
+        font-size: 4.5rem !important;
+    }
+    .title1{
+        margin-top: -6rem !important;
+        margin-left: 13rem !important;
+        font-size: 4.5rem !important;
+    }
+    
+}
 
 @media (min-width: 990px) and (max-width: 1210px){
    
@@ -181,4 +215,79 @@
     .card4{
         margin-left: 45.5rem !important;
     }
+}
+
+
+@media ((min-width: 761px) and (max-width: 990px)) {
+    .cards{
+        margin-left: -1rem;
+        width: 43% !important;
+        
+        
+       }
+       .tex{
+        margin-left: -2rem !important;
+       }
+        .card1{
+            margin-left: 4.5rem !important;
+            height: 17rem;
+            
+        }
+        .card2{
+            
+            margin-top: -17rem;
+            margin-left: 26.5rem !important;
+          
+        }
+        .card3{
+            
+            margin-top: 6rem;
+            margin-left: 4.5rem !important;
+        }
+        .card4{
+            
+            margin-top: -16rem;
+            margin-left: 26rem !important;
+            height: 16.5rem;
+        }
+        .title2 , .text{
+            margin-left: 10rem !important;
+        }
+}
+
+@media ((min-width: 480px) and (max-width: 759px)) {
+    .cards{
+        margin-left: -4rem;
+        width: 58% !important;
+        
+        
+       }
+       .tex{
+        margin-left: -2rem !important;
+       }
+        .card1{
+            margin-left: 4.5rem !important;
+            height: 17rem;
+            
+        }
+        .card2{
+            
+            margin-top: -17rem;
+            margin-left: 25.5rem !important;
+          
+        }
+        .card3{
+            
+            margin-top: 6rem;
+            margin-left: 4.5rem !important;
+        }
+        .card4{
+            
+            margin-top: -16rem;
+            margin-left: 26rem !important;
+            height: 16.5rem;
+        }
+        .title2 , .text{
+            margin-left: 10rem !important;
+        }
 }

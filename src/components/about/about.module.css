@@ -16,6 +16,7 @@
   }
   .texts{
     text-align: justify;
+    height: auto ;
 
     
   }
@@ -47,10 +48,10 @@
  }
 
 
- @media (max-width: 480px) {
+ @media (max-width: 579px) {
   .texts{
-    width: 30%;
-    margin-left: -4rem;
+    width: 40%;
+    
     
   }
   .image5{
@@ -62,7 +63,37 @@
     margin-bottom: 2rem !important;
   }
   .card{
-     width: 30%;
+     width: 70%;
+      margin-left: 0.5rem;
+  }
+ 
+.wrapper{
+  width: 80%;
+  margin-left: -5rem;
+}
+
+
+ }
+ @media (max-width: 370px) {
+  .texts{
+    width: 30%;
+    padding-left: 1rem !important;
+    
+    
+  }
+  .button{
+    margin-left: 1rem;
+  }
+  .image5{
+    width: 40% !important;
+  }
+  .title{
+    font-size: 1.5rem !important ;
+    margin-left: -30rem ;
+    margin-bottom: 2rem !important;
+  }
+  .card{
+     width: 55%;
       margin-left: 0.5rem;
   }
  
@@ -99,12 +130,14 @@
  }
  }
 
- @media ((min-width: 481px) and (max-width: 739px)) {
+ @media ((min-width: 580px) and (max-width: 759px)) {
   .texts{
-    width: 30%;
+    width: 43%;
+    
     margin-left: -4rem;
     
   }
+  
   .image5{
     width: 40% !important;
   }
@@ -114,9 +147,11 @@
     margin-bottom: 2rem !important;
   }
   .card{
-     width: 30%;
-      margin-left: 0.5rem;
+     width: 70%;
+     
+      
   }
+ 
  
 .wrapper{
   width: 160%;
@@ -125,4 +160,30 @@
 
 
  }
+
+ @media (min-width: 760px) and (max-width: 990px) {
+
+  .titles{
+    margin-left: 10rem !important;
+  }
+  .image5{
+    width: 40% !important;
+    margin-left: 1rem !important;
+  }
+  .texts{
+    width: 60%;
+    
+    
+  }
+  .card{
+    width: 100%;
+    margin-left: 1.5rem;
+     
+     
+ }
+ .icon{
+  margin-left: 100rem !important;
+ }
  
+ 
+ }

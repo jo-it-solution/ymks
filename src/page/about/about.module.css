@@ -290,5 +290,39 @@
 
    
 }
+
+@media ((min-width: 740px) and (max-width: 990px)) {
+   .img{
+      margin-left: 1rem !important;
+      width: 98% !important;
+      margin-top: 0rem !important;
+    
+     } 
+     .img2{
+      margin-left: 0rem !important;
+      width: 40% !important;
+      margin-top: 18rem !important; 
+   }
+   .descripion{
+      margin-left: -18rem;
+      margin-top: 25rem;
+      width: 58% !important;
+      text-align: justify;
+   }
+   .img4{
+      display: none !important;
+   }
+   .title2{
+      width: 100%;
+      margin-left: 48rem !important;
+   }
+   .title5{
+      width: 50% !important;
+   }
+   .img10{
+      width: 80% !important;
+      margin-left: 35rem !important;
+   }
+}
  
 

@@ -30,13 +30,14 @@ const theme = createTheme({
     primary: base, 
   },
   primaryColor: "primary", 
-  primaryShade: { light: 9, dark: 9 }, 
+  primaryShade: { light: 9, dark: 9 },
+  fontFamily: 'DM Sans, sans-serif', 
 });
 
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
-    <MantineProvider theme={theme}>
+    <MantineProvider theme={theme} >
       <App />
     </MantineProvider>
   </BrowserRouter>,

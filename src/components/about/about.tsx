@@ -74,8 +74,8 @@ export function About() {
             href="/about" className={classes.button} variant="outline" color="#FFB413" radius="xl"  mt={50}>Learn More</Button>
          
         </Grid.Col>
-        <Grid.Col span={{ base: 12, md: 7 }} >
-          <SimpleGrid cols={{ base: 1, md: 2 }} spacing={30}>
+        <Grid.Col span={{ base: 7, md: 7 }}  className={classes.cardss}>
+          <SimpleGrid cols={{ base: 1, sm: 2, md: 2, lg: 2}} spacing={30}>
             {items}
           </SimpleGrid>
         </Grid.Col>

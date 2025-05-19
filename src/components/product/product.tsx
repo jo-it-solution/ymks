@@ -3,12 +3,13 @@ import classes from './product.module.css';
 import { Forklift,ArrowRight , HardHat,BookUser,BookOpen,CircuitBoard,HandCoins} from 'lucide-react';
 
 
+
 export default function Product() {
   return (
     <Container className={classes.body}>
 
        <Title
-            ml={40}
+            ml={370}
             mb={60}
             mt={60}
             className={classes.titles}
@@ -18,9 +19,9 @@ export default function Product() {
             Our Product
               </Title> 
        
-      <div className={classes.parents}>
+      <div className={classes.parents} id={classes.gg}>
      <Grid className={classes.grid} >   
-     <Grid.Col span={{ base: 3, md: 50, lg: 4  }} className={classes.parent} >
+     <Grid.Col span={{ base: 3, md: 50, lg: 4  }} className={classes.parent}  >
         <Image
       radius="md"
       h={240}
@@ -65,7 +66,7 @@ order-to-cash business operation.
 
    
     
-    <Grid.Col span={{ base: 12, md: 6, lg: 4 }} className={classes.parents2} >
+    <Grid.Col span={{ base: 12, md: 6, lg: 4 }} className={classes.parents2} id={classes.parent} >
         <Image
       radius="md"
       h={240}
@@ -153,7 +154,7 @@ order-to-cash business operation.
   
     <div className={classes.parents}>
      <Grid className={classes.grids} >   
-     <Grid.Col span={{ base: 3, md: 50, lg: 4  }} className={classes.parent} >
+     <Grid.Col span={{ base: 3, md: 50, lg: 4  }} className={classes.parent} id={classes.parents} >
      <Image
       radius="md"
       h={230}
@@ -161,13 +162,14 @@ order-to-cash business operation.
       fit="contain"
       src="card4.jpg"
        alt='image'
-      className={classes.Images}
+      className={classes.Imagess }
+      
       
     />
       <div className={classes.contents} style={{width:"21rem"}}>
      <BookOpen size={49} strokeWidth={1} className={classes.icons} />
      <div className={classes.contentss}>
-    <Text fw={700} fz="lg" mb="xs" mt={16} className={classes.title}>
+    <Text fw={700} fz="lg" mb="xs" mt={16} className={classes.title} >
     SIS (Student Information System)
         </Text>
         <Text c="black" fz="sm">
@@ -236,7 +238,7 @@ order-to-cash business operation.
 
 
 
-  <Grid.Col span={{ base: 12, md: 6, lg: 4 }}  className={classes.parent3} >
+  <Grid.Col span={{ base: 12, md: 6, lg: 4 }}  className={classes.parent3} id={classes.parentss} >
   <Image
       radius="md"
       h={240}
