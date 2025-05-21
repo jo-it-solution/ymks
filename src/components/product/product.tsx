@@ -53,7 +53,7 @@ order-to-cash business operation.
     <Group justify="center" mt={35}  >
       
 
-    <Button className={classes.buttons} component='a' href='/product#1'   radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
+    <Button className={classes.buttons} component='a' href='/product#2'   radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
 
       
     </Group>
@@ -96,7 +96,7 @@ order-to-cash business operation.
     <Group justify="center" mt={15} >
       
 
-    <Button className={classes.buttons} component='a' href='/product#2'   radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
+    <Button className={classes.buttons} component='a' href='/product#6'   radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
 
       
     </Group>
@@ -138,7 +138,7 @@ order-to-cash business operation.
     <Group justify="center" mt={44} >
       
 
-    <Button className={classes.buttons} component='a' href='/product#5' radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
+    <Button className={classes.buttons} component='a' href='/product#3' radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
 
       
     </Group>
@@ -183,7 +183,7 @@ order-to-cash business operation.
     <Group justify="center" mt={49} >
       
 
-    <Button className={classes.buttons} component='a' href='/product#4'  mt={25} radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
+    <Button className={classes.buttons} component='a' href='/product#3'  mt={25} radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
 
       
     </Group>
@@ -270,7 +270,7 @@ order-to-cash business operation.
     <Group justify="center" mt={35} >
       
 
-    <Button className={classes.buttons} component='a' href='/product#3'   radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
+    <Button className={classes.buttons} component='a' href='/product#4'   radius="xl" rightSection={<ArrowRight size={22} width={20}  />}>Learn More</Button>
 
       
     </Group>

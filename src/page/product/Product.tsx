@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import {  Container,  Image,  Text,  Title } from '@mantine/core';
 import classes from './Prduct.module.css';
 import HeaderMegaMenu from '../../components/header/header';
@@ -5,6 +6,15 @@ import { FooterLinks } from '../../components/footer/footer';
 
 
 export default function Product() {
+  useEffect(() => {
+    const hash = window.location.hash.slice(1); 
+    if (hash) {
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' }); 
+      }
+    }
+  }, []);
   return (
    <div className={classes.body}>
  <div style={{ position: 'relative', zIndex: 1,   }}>
@@ -76,7 +86,7 @@ export default function Product() {
       </div>
     </Container>
 
-    <Container size="md" mt={80} id='3'>
+    <Container size="md" mt={80} id='6'>
       <div className={classes.inner} id={classes.inner}>
         <div className={classes.content}>
           <Title className={classes.title}>
@@ -116,7 +126,7 @@ export default function Product() {
       </div>
     </Container>
 
-    <Container size="md" mt={80} id='5'>
+    <Container size="md" mt={80} id='3'>
       <div className={classes.inner}>
         <div className={classes.content3}>
           <Title className={classes.title}>

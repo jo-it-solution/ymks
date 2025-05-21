@@ -8,8 +8,8 @@ const data = [
     title: 'Quick Links',
     links: [
       { label: 'Home', link: '/' },
-      { label: 'About', link: '/About' },
-      { label: 'Management Consultacy', link: '#' },
+      { label: 'About', link: '/about' },
+      { label: 'Management Consultacy', link: '/About' },
       { label: 'Workshops,seminar and', link: '#' },
       { label: 'training', link: '#' },
       { label: 'Contact', link: '#' },
