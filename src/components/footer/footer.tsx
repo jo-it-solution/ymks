@@ -1,5 +1,5 @@
 import { Instagram , Facebook ,Twitter} from 'lucide-react';
-import { ActionIcon, Container, Group, Text,Image, Divider } from '@mantine/core';
+import { ActionIcon, Container, Group, Text,Image, Divider ,Anchor } from '@mantine/core';
 
 import classes from './Footer.module.css';
 
@@ -64,6 +64,7 @@ export function FooterLinks() {
       <Container className={classes.inner}>
         <div className={classes.logo}>
         <Text className={classes.title} ml={2} mb={30}>About</Text>    
+        <Anchor href="/" >
         <Image
       
       
@@ -72,6 +73,7 @@ export function FooterLinks() {
       w={70}
       
          />
+          </Anchor>
           <Text size="xs" w={170} c="white" mt={-100} ml={90} className={classes.description}>
           Mentor Knowledge Solutions PLC is an IT and Management Consulting firm taking an active role in the business of making organizations perform better
           </Text>

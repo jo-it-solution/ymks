@@ -35,6 +35,37 @@
   .text{
     font-weight: 5;
   }
+
+
+  .welcome , .welcome1{
+   
+  
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s; 
+   
+ }
+ 
+ @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:100px; top:-10px;  }
+    
+  }
+
+  .text{
+   
+  
+    position: relative;
+    animation-name: text;
+    animation-duration: 3s; 
+   
+ }
+ 
+ @keyframes text {
+    0%   { left:0px; top:0px;}
+    25%  { left:100px; top:20px;  }
+    
+  }
   
  
   @media (max-width: 480px) {
